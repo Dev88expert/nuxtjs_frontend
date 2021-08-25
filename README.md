@@ -1,3 +1,4 @@
+```bash
 #.                                                      Project Document part
 #.
 #. Author - Shailtech
@@ -15,7 +16,7 @@
 #. Bootstrap latest version
 #.
 #.                                                      Build Setup Commands
-```bash
+
 # install dependencies
 $ npm install
 
@@ -28,7 +29,7 @@ $ npm run start
 
 # generate static project
 $ npm run generate
-```
+
 #. Todo Module
 #. Crud operation like 
 #- add
@@ -50,3 +51,4 @@ $ npm run generate
 #- Authorisation 
 #. login 
 #. registeration. 
+```
