@@ -20,8 +20,8 @@ export default {
       state.user = payload
     },
     Auth_Logout(state) {
-      Cookies.remove('token')
-      localStorage.removeItem('token')
+      Cookies.remove('access_token')
+      localStorage.removeItem('auth-token')
       localStorage.removeItem('user')
       ;(state.user = ''), (state.token = '')
     },
